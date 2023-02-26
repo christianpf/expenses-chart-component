@@ -1,6 +1,7 @@
 import React from 'react'
 
 import chart_data from '../assets/data.json'
+import logo from "../../images/logo.svg"
 
 const Daily = () => {
 
@@ -32,7 +33,7 @@ const Chart = () => {
                 <p>My balance</p>
                 <p className='balance'>$921.48</p>
             </div>
-            <img src="../../images/logo.svg" alt="Enterprise logo"/>
+            <img src={logo} alt="Enterprise logo"/>
         </div>
         <div className='expenses__content'>
             <h1 className='expenses__title'>Spending - Last 7 days</h1>
